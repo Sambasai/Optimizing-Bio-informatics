@@ -1,0 +1,13 @@
+void tick(struct timeval *t);
+double tock(struct timeval *t);
+void RandomVector_f(int n, float *A);
+void RandomVector_d(int n, double *A);
+void Needleman_Wunsch(std::string &A, std::string &B, int match, int mismatch, int gap);
+void Needleman_Wunsch_optv1(std::string &A, std::string &B, int match, int mismatch, int gap);
+void Needleman_Wunsch_optv2(std::string &A, std::string &B, int match, int mismatch, int gap);
+void Needleman_Wunsch_optv3(std::string &A, std::string &B, int match, int mismatch, int gap);
+void Needleman_Wunsch_optv4(std::string &A, std::string &B, int match, int mismatch, int gap);
+void Needleman_Wunsch_optv5(std::string &A, std::string &B, int match, int mismatch, int gap);
+void Needleman_Wunsch_optv6(std::string &A, std::string &B, int match, int mismatch, int gap);
+void Needleman_Wunsch_optv7(std::string &A, std::string &B, int match, int mismatch, int gap);
+std::string RandomSeqGen(int n);
